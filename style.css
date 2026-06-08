@@ -70,3 +70,11 @@ footer {
     padding: 20px;
     font-family: 'Maitree', serif;
 }
+
+.horizontal-list {
+  display: flex;
+  list-style-type: none; /* เอาจุดกลมๆ หน้า li ออก */
+  padding: 0;
+  margin: 0;
+  gap: 20px; /* กำหนดระยะห่างระหว่างแต่ละ li */
+}
