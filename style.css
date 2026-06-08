@@ -42,3 +42,23 @@ p.fn{
   font-size:1em;
   color:cadetblue;
 }
+h1 {
+    text-align: center;
+}
+
+/*แบ่งcolumns*/
+.container {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    background: rgb(224, 242, 248);
+    padding: 10px;
+}
+
+.right {
+    width: 50%;
+    background: rgb(219, 248, 219);
+    padding: 10px;
+}
