@@ -1,0 +1,44 @@
+  @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@600&family=Maitree:wght@400&display=swap');
+
+p#message{
+    color: blueviolet;
+}
+h1.title{
+    color: orange;
+    font-size: 16px;
+}
+    /* Optional: Style line numbers */
+    pre {
+        counter-reset: line;
+        white-space: pre-line;
+        max-height: 400px; /* Adjust the maximum height as needed */
+        overflow: auto;   /* Add vertical scrolling */
+      }
+  
+      code::before {
+        content: counter(line);
+        counter-increment: line;
+        padding-right: 1em;
+        color: #999; /* Line number color */
+        display: inline-block;
+      }
+      code {
+        color: #333; /* Code text color */
+        font-family: 'Courier New', monospace; /* Optional: Use monospace font */
+      }
+pre.box{
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+
+}
+p.fn{
+  font-family: 'Anuphan', sans-serif;
+  font-size:2em;
+  color:cadetblue;
+}
+.prph{
+  font-family: 'Maitree', serif;
+  font-size:1em;
+  color:cadetblue;
+}
